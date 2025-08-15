@@ -37,23 +37,35 @@ class hero {
         }
 };
 int main(){
-    //  statically
-    hero a;
-    a.sethealth(33,'o');
-    a.setlevel('A');
-    cout<<" level is "<<a.level<<endl;
-    cout<<" health is "<<a.gethealth()<<endl;
+    // //  statically
+    // hero a;
+    // a.sethealth(33,'o');
+    // a.setlevel('A');
+    // cout<<" level is "<<a.level<<endl;
+    // cout<<" health is "<<a.gethealth()<<endl;
     
 
-    // dyanamically
-    hero *b = new hero; 
-    b->setlevel('b');
-    b->sethealth(88,'o');
+    // // dyanamically
+    // hero *b = new hero; 
+    // b->setlevel('b');
+    // b->sethealth(88,'o');
 
-    cout<<" level of b is "<<(*b).level<<endl;
-    cout<<" health of b is "<<(*b).gethealth()<<endl;
+    // cout<<" level of b is "<<(*b).level<<endl;
+    // cout<<" health of b is "<<(*b).gethealth()<<endl;
      
-     cout<<" level of b is "<<b->level<<endl;
-    cout<<" health of b is "<<b->gethealth()<<endl;
-    return 0;
+    //  cout<<" level of b is "<<b->level<<endl;
+    // cout<<" health of b is "<<b->gethealth()<<endl;
+
+
+
+
+
+
+
+
+    // CONSTRUCTORS
+
+    hero om;
+     
+     return 0;
 }

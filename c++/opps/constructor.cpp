@@ -59,9 +59,11 @@ int main(){
     // // dyanmicaly
     // hero *b = new hero(22);
     // b->print();
+    // delete b;
 
     // hero temp(22,'C');
     // temp.print();
+    
     
      
 
@@ -72,6 +74,6 @@ int main(){
 
     hero zoro(luffy); /*copy*/
     zoro.print();
-
+    
     return 0;
 }

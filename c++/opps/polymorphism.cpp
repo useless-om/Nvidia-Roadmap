@@ -79,7 +79,7 @@ using namespace std;
 
 
 
-/* VIRTUAL FUNCTION*/  /* at runtime*/
+/* VIRTUAL FUNCTION*/  /* at runtime and also if we do dyanamic */
 
 class Parent {
     public:

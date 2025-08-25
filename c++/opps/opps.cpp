@@ -26,7 +26,7 @@ class hero {
         /*also can set password with ifelse*/
         void sethealth(int h, char pass){ 
            
-            if(pass=='om'){
+            if(pass=='o'){
                 health=h;
             }
            
@@ -41,15 +41,27 @@ int main(){
     // hero h1;
     // cout<<" size :"<< sizeof(h1)<<endl;
 
-    hero om;
+    // hero om;
 
-    // om.health=69; not possible due to private
-    om.sethealth(69,'om');
-    om.level= 'A';
-    cout<<"health of om is : "<<om.gethealth()<<endl;
-    cout<<"level is: "<<om.level<<endl;
+    // // om.health=69; not possible due to private
+    // om.sethealth(69,'om');
+    // om.level= 'A';
+    // cout<<"health of om is : "<<om.gethealth()<<endl;
+    // cout<<"level is: "<<om.level<<endl;
 
 
 
+    // static allocation
+    hero a;  
+    cout<<" level is "<<a.level<<endl;
+    cout<<"health is "<<a.gethealth()<<endl;
+
+    // dyanmically
+    hero *b = new hero;
+    b->sethealth(99, 'o');
+    b->setlevel('A');
+    cout<<" level is "<<(*b).level<<endl;
+    cout<<" health is "<<(*b).gethealth()<<endl;
+    delete b;
     return 0;
 }

@@ -10,5 +10,14 @@
 # with open("practice2.txt","w") as f:
 #     f.write(new)
 
-    
+
+
+f = open("practice.txt","a+")
+f.write("asghn")
+
+f.close()
+
+f = open("practice.txt","r")
+data = f.read()
+print(data)
     

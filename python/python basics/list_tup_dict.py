@@ -27,18 +27,18 @@
 
 
 
-# #create a tuple
-# colors =("red","green","blue")
+#create a tuple (unchangable so fast)
+colors =("red","green","blue")
 
-# #acces
-# print(colors[0])
+#acces
+print(colors[0])
 
-# #loop
-# for color in colors:
-#  print(color)
+#loop
+for color in colors:
+ print(color)
  
-# # lengeth
-# print(len(colors))
+# lengeth
+print(len(colors))
 
 
 
@@ -49,18 +49,18 @@ marks = {
     "zoro":88,
     "sanji":67
 }
-#acces value
-print(marks["om"])
-print(marks.get("sanji")) #or
+# #acces value
+# print(marks["om"])
+# print(marks.get("sanji")) #or
 
-#change value
-marks["zoro"]= 99
+# #change value
+# marks["zoro"]= 99
 
-# add new key values
-marks["robin"]=6969
+# # add new key values
+# marks["robin"]=6969
 
-# remove key value
-del marks["om"]
+# # remove key value
+# del marks["om"]
 
 # loop
 for name, grade in marks.items():

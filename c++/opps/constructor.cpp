@@ -10,7 +10,7 @@ class hero {
          char level;
         
         hero(){
-            cout<<" constructor called"<<endl;
+            cout<<" default constructor called"<<endl;
         }
 
         // Parameterised constructor
@@ -28,7 +28,7 @@ class hero {
         hero(hero& temp){
             cout<<"copy constructor called"<<endl;
             this-> health= temp.health;
-            this-> level = temp.health;
+            this-> level = temp.level;
         }
 
         void print(){
